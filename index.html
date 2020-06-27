@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <div>
+        <table border= "2px solid green"  style=" margin-top: 250px;margin-left:500px ;width:400px; height: 300px;" >
+         <tr  style="height: 40px; background-color: burlywood;">
+            <th colspan="5" ><input type="text" id="result" onfocus="this.style.backgroundColor = 'pink'" style=" width: 400px; height: 35px;"></th>
+        </tr>
+        <tr  style="height: 40px; background-color:crimson;">
+            <th colspan="5"   style="text-align: center; color: darkorange; "  onclick="clearres('')" ><b><font size="6px">clear</font></th>
+        </tr>
+        <tr style="height: 30px; background-color:crimson;">
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('7')"><b><font size="6px">7</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('8')"><b><font size="6px">8</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('9')"><b><font size="6px">9</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('/')"><b><font size="6px">/</b></font></td>
+            
+        </tr>    
+        <tr style="height: 30px; background-color:crimson;">
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('4')" ><b><font size="6px">4</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('5')"><b><font size="6px">5</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('6')"><b><font size="6px">6</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('*')"><b><font size="6px">*</td> 
+        </tr>
+        <tr style="height: 30px; background-color:crimson;">
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('1')"><b><font size="6px">1</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('2')"><b><font size="6px">2</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('3')"><b><font size="6px">3</td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('-')"><b><font size="6px">-</font></td>
+          
+        </tr>
+        <tr style="height: 30px; background-color:crimson;">
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('0')"><b><font size="6px">0</font></td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('.')"><b><font size="6px">.</font></td>
+            <td style="text-align: center; color: darkorange; " onclick="getresult()"><b><font size="6px">=</font></td>
+            <td style="text-align: center; color: darkorange; " onclick="getnumber('+')"><b><font size="6px">+</font></td>
+        </tr>    
+        </table> 
+       </div>
+    
+</body>
+</html>
